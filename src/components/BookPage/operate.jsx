@@ -1,0 +1,52 @@
+import {OSS_PRE} from "../../constant/ActionTypes";
+
+export default  {
+    tabContent:[{
+        id:1,
+        name:'上一章',
+        fontUrl:`${OSS_PRE}/images/read/arrow_up.png`,
+        selectUrl:`${OSS_PRE}/images/read/arrow_up.png`
+    },{
+        id:2,
+        name:'目录',
+        fontUrl:`${OSS_PRE}/images/read/icon_chapter_menu@2x.png`,
+        selectUrl:`${OSS_PRE}/images/read/icon_chapter_menu@2x.png`
+    },{
+        id:3,
+        name:'设置',
+        fontUrl:`${OSS_PRE}/images/read/icon_text_size@2x.png`,
+        selectUrl:`${OSS_PRE}/images/read/icon_text_size@2x.png`
+    },{
+        id:4,
+        name:'夜间',
+        fontUrl:`${OSS_PRE}/images/read/icon_sun_white@2x.png`,
+        selectUrl:`${OSS_PRE}/images/read/icon_moon@2x.png`
+    },{
+        id:5,
+        name:'下一章',
+        fontUrl:`${OSS_PRE}/images/read/arrow_down.png`,
+        selectUrl:`${OSS_PRE}/images/read/arrow_down.png`
+    }],
+    bookStyle:[{
+        id:1,
+        backGround:'#EFEBDF',
+        name:'默认'
+    },{
+        id:2,
+        backGround:'#CFE1D3',
+        name:'护眼'
+    },{
+        id:3,
+        backGround:'#D6D4CA',
+        name:'古典'
+    },{
+        id:4,
+        backGround:'#272727',
+        name:'沉静',
+        color:'white'
+    },{
+        id:5,
+        backGround:'#F0D6D5',
+        name:'时尚'
+    }]
+}

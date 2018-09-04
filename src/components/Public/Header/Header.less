@@ -1,0 +1,57 @@
+.headers{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 43px;
+  background: white;
+  img{
+    width:20px;
+    height:20px;
+    margin-right:15px;
+  }
+}
+.iconLeft{
+   width: 32px;
+   height: 32px;
+   color: #808080;
+   align-self: center;
+ }
+.iconRight{
+  width: 22px;
+}
+.title{
+  color: #404040;
+  font-size: 18px;
+}
+.line {
+  width: 100%;
+  height:5px;
+  background: -webkit-linear-gradient(#cccccc, white); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#cccccc, white); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#cccccc, white); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#cccccc, white); /* 标准的语法 */
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .line {
+    width: 100%;
+    background: -webkit-linear-gradient(#cccccc, white); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#cccccc, white); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#cccccc, white); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#cccccc, white); /* 标准的语法 */
+  }
+  .line_y{
+    background: -webkit-linear-gradient(#cccccc, white); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#cccccc, white); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#cccccc, white); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#cccccc, white); /* 标准的语法 */
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 12px;
+    margin-top: 1px;
+  }
+}

@@ -1,0 +1,272 @@
+.agent{
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  height: 100%;
+  width: 100%;
+  div{
+    position: absolute;
+    left: 15%;
+    top: 88%;
+    width: 70%;
+    height: 6%;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.book{
+  float: left;
+  width: 33.3%;
+  height: 120px;
+  margin-top: 2%;
+  color: #404040;
+  .img{
+    width: 60%;
+    margin-left: 20%;
+    height: 80%;
+    background-size: 100% ;
+    background-repeat: no-repeat ;
+    background-position: center;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .span{
+    height: 20%;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    span{
+      font-size: 80%;
+    }
+  }
+}
+.delBtn{
+  left: 30%;
+  width: 20%;
+  bottom: 10%;
+}
+.cancelDelBtn{
+  right: 30%;
+  width: 20%;
+  bottom: 10%;
+}
+.shelf_content{
+  margin-top: 60px;
+  background: white;
+}
+.last_book{
+  display: flex;
+  background: #f3916b;
+  height: 130px;
+  margin-top: 30px;
+}
+.last_books{
+  background: #f3916b;
+  height: 110px;
+  padding-top: 20px;
+}
+.left{
+  margin-left: 68px;
+  height: 110px;
+  width: 80px;
+}
+.left_img{
+  width: 100%;
+  height: 100%;
+  margin-top:7px;
+}
+.right{
+  margin-left: 25px;
+  color: white;
+  margin-top: 12px;
+}
+.r_title{
+  font-size: 17px;
+  margin-top: 10px;
+  margin-left:-2px;
+  width:80%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.r_2{
+  font-size: 12px;
+  display: flex;
+  margin-top: 29px;
+}
+.r_continue_read{
+  margin-left: 15px;
+  margin-right: 5px;
+  font-size:14px;
+  color:#DCDCDC;
+}
+.r_update{
+  font-size: 14px;
+  margin-top: 7px;
+  display: flex;
+  color:#DCDCDC;
+  span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 120px;
+  }
+}
+@media (min-device-width:320px)and(max-device-width:350px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+  .r_update{
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    span{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 90px;
+    }
+  }
+}
+.middle{
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 17px;
+  padding-bottom: 10px;
+  margin-left: 5%;
+}
+.carousel{
+  width: 230px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+  background: #F1F1F5;
+  border-radius: 5px;
+}
+.carousel_content{
+  display: flex;
+  align-items: center;
+}
+.carousel_img{
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+.carousel_name{
+  margin-left: 10px;
+  font-size: 13px;
+  flex: 1;
+  margin-top:1px;
+}
+.carousel_icon{
+  max-width: 16px;
+  min-width: 16px;
+  color: #808080;
+  margin-right:5px;
+}
+.middle_right{
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  align-items: center;
+  margin-left:13px;
+}
+@media (min-device-width:320px)and(max-device-width:350px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+  .middle_right{
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    align-items: center;
+    margin-right: 3px;
+    font-size: 12px;
+  }
+  .m_r_img{
+    height: 16px;
+    width: 16px;
+    margin-right: 3px;
+  }
+}
+.m_r_img{
+  height: 20px;
+  width: 20px;
+  margin-right: 3px;
+}
+.books{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  div[class="list-view-section-body"]{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.list_view{
+  width: 100%;
+}
+.books_content{
+  width: 18%;
+  margin-right: 10%;
+  margin-top: 15px;
+}
+.b_img{
+  width: 100%;
+  height: 90px;
+  pointer-events:none;
+}
+.b_title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top:5px;
+  text-align: center;
+}
+.books_contents{
+  width: 18%;
+  margin-right: 0;
+  margin-top: 15px;
+}
+.icon_circle{
+  color: #cccccc;
+  position: relative;
+  top: -115px;
+  left: 58px;
+}
+
+.bottom{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  color: #999999;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.delete{
+  height: 26px;
+  width: 22px;
+  margin-right: 5px;
+}
+.empty{
+  height: 35px;
+  background: #F1F1F5;
+  margin: 30px auto;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: #cccccc;
+}
+.e_p2{
+  margin-top: 6px;
+}
+.empty_p{
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+}

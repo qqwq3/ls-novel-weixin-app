@@ -1,0 +1,141 @@
+.bookDetail{
+  display: flex;
+  padding:12px 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.imgbox{
+  width: 30%;
+  height: 90px;
+  margin-left:10px;
+}
+.img{
+  width: 65px;
+  height: 90px;
+}
+.bookDetailRight{
+  width: 100%;
+  margin-left: 15px;
+}
+.bookDetailRight p{
+  color:#6a6f77;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.people{
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  span{
+    display: block;
+  }
+}
+.spanTitle{
+  width:60%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.booklist{
+  padding-top: 45px;
+}
+.new{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;  //这里是在第二行有省略号
+  overflow: hidden;
+  width:98%;
+}
+.main{
+  width:50px;
+  height:50px;
+  opacity:1;
+  position:fixed;
+  border-radius:10%;
+  margin-top:200px;
+  margin-left:50px;
+}
+.loadingDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:10px;
+}
+.leftDiv{
+  width:25px;
+  height:25px;
+  position:relative;
+}
+.rightDiv{
+  margin-left:20px;
+  color:#808080;
+}
+.loadingDiv span {
+  display:inline-block;
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:#f3916b;
+  position:absolute;
+  -webkit-animation:load 1.04s ease infinite;
+}
+@-webkit-keyframes load {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0.2;
+  }
+}
+.loadingDiv span:nth-child(1) {
+   left:50%;
+   top:0%;
+   -webkit-animation-delay:0.13s;
+ }
+.loadingDiv span:nth-child(2) {
+  left:80%;
+  top:15%;
+  -webkit-animation-delay:0.26s;
+}
+.loadingDiv span:nth-child(3) {
+  left:90%;
+  top:50%;
+  -webkit-animation-delay:0.39s;
+}
+.loadingDiv span:nth-child(4) {
+  top:77%;
+  left:77%;
+  -webkit-animation-delay:0.52s;
+}
+.loadingDiv span:nth-child(5) {
+  left:50%;
+  top:88%;
+  -webkit-animation-delay:0.65s;
+}
+.loadingDiv span:nth-child(6) {
+  top:77%;
+  left:20%;
+  -webkit-animation-delay:0.78s;
+}
+.loadingDiv span:nth-child(7) {
+  left:5%;
+  top:50%;
+  -webkit-animation-delay:0.91s;
+}
+.loadingDiv span:nth-child(8) {
+  left:18%;
+  top:15%;
+  -webkit-animation-delay:1.04s;
+}
+.status{
+  padding:0 2px;
+  border:1px solid #663399;
+  color:#663399;
+  border-radius: 5px;
+  margin-right:10px;
+}

@@ -1,0 +1,96 @@
+.openVip{
+  width:100%;
+  background: #000;
+  overflow: hidden;
+}
+.card{
+  width:95%;
+  margin:0 auto;
+  height:168px;//高度影响了i6和i5的适配
+  position: relative;
+  padding-top:35px;
+}
+.vipCard{
+  width:100%;
+  position: absolute;
+}
+.userImg{
+  width:50px;
+  height:50px;
+  position: absolute;
+  margin-top:15px;
+  margin-left:15px;
+  border-radius: 50%;
+}
+.card .userName{
+  position: absolute;
+  font-size:15px;
+  color:white;
+  margin-top:30px;
+  left:80px;
+}
+.card .surplusDay{
+  font-size:12px;
+  color:white;
+  position: absolute;
+  bottom:10px;
+  right:10px;
+}
+.bottom{
+  display: flex;
+  width:100%;
+  margin-top:50px;
+  flex-direction:column;
+  align-items:center;
+}
+.bottom img{
+  width:60px;
+  height:60px;
+}
+.balance {
+  width: 90px;
+  height: 25px;
+  border: 1px solid #f3916b;
+  border-radius: 3px;
+  color: #f3916b;
+  text-align: center;
+  line-height: 25px;
+  font-size: 12px;
+  float: right;
+  margin-right: 13px;
+  margin-top: 20px;
+}
+.threeSDiv span{
+  font-size:18px;
+  color:#808080;
+  padding-left:15px;
+
+}
+.threeSDiv span b{
+  font-size:24px;
+  color:#f3916b;
+  padding:0 6px;
+}
+
+.threeSDiv{
+  width:220px;
+  margin:15px 0;
+  display: flex;
+  align-items:center;
+}
+.nowOpen{
+  width:250px;
+  height:44px;
+  background:#F3916b;
+  color:white;
+  font-size:15px;
+  text-align: center;
+  line-height:44px;
+  border-radius: 22px;
+  margin:0 auto;
+}
+@media only screen and (min-width: 320px){
+  .card{
+    height:145px;
+  }
+}
